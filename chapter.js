@@ -5,7 +5,7 @@ var parseHeaders = {
 };
 
 $.ajax({
-  url: "https://api.parse.com/1/classes/Chapter",
+  url: "https://api.parse.com/1/classes/Chapter?keys=Title",
   method: "GET",
   headers: parseHeaders
 }).done( function(data){
